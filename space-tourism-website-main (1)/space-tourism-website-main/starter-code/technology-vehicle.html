@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="technology-body">
+    <header>
+      <nav>
+        <a href="index.html">
+        <img src="assets/shared/logo.svg" alt="">
+        </a>
+
+          <div class="pandburger">
+            <button class="hamburger"><img src="assets/shared/icon-hamburger.svg" alt=""></button>
+          </div>
+
+        <ul class="nav-lists">
+          <li><a href="index.html">00 Home</a></li>
+          <li><a href="destination-moon.html">01 Destination</a></li>
+          <li><a href="crew-commander.html">02 Crew</a></li>
+          <li><a href="technology-vehicle.html">03 Technology</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<main class="grid-container tech-layout">
+  <h2 class="numbered-title"><span>03</span> Space launch 101</h2>
+
+  <div class="tech-img-container">
+    <picture>
+      <source srcset="assets/technology/image-launch-vehicle-portrait.jpg" media="(min-width: 1024px)">
+      <img src="assets/technology/image-launch-vehicle-landscape.jpg" alt="Launch vehicle" class="tech-img">
+    </picture>
+  </div>
+
+  <div class="tech-tabs">
+    <button class="num-dot active" data-index="0">1</button>
+    <button class="num-dot" data-index="1">2</button>
+    <button class="num-dot" data-index="2">3</button>
+  </div>
+
+  <article class="tech-info">
+    <header>
+      <h4 class="terminology">The terminology...</h4>
+      <h1 class="tech-name">Launch vehicle</h1>
+    </header>
+    <p class="tech-desc">
+      A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation.
+    </p>
+  </article>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
